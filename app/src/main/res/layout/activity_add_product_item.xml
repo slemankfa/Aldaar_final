@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_product_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.slemankamel.aldaarshop.Activites.AddProductItem">
+
+
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <!--body -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+
+            <ImageView
+                android:id="@+id/addproductitem_image_imgview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#01dddddd"
+                android:src="@drawable/image_crop" />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/addproductitem_name_edt"
+                android:gravity="center"
+                android:hint="Product Name " />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/addproductitem_price_edt"
+                android:gravity="center"
+                android:hint="Product Price  " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Optional : "
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/addproductitem_quntity_edt"
+                android:gravity="center"
+                android:hint="Product Quntity  " />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/addproductitem_countryoforgin_edt"
+                android:gravity="center"
+                android:hint="Country Of Orgin  " />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/addproductitem_add_bttn"
+        style="@style/AlertDialog.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/add_new_item"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+</RelativeLayout>

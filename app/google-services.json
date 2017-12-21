@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "380702456029",
+    "firebase_url": "https://aldaarshop.firebaseio.com",
+    "project_id": "aldaarshop",
+    "storage_bucket": "aldaarshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380702456029:android:55b5cabb543986bd",
+        "android_client_info": {
+          "package_name": "com.example.slemankamel.aldaarshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380702456029-v0ti1b4ljgpvj9l3ofmmk4ka231qntk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.slemankamel.aldaarshop",
+            "certificate_hash": "70063f10cf5a4d026d1e3b85d801d38836655cc4"
+          }
+        },
+        {
+          "client_id": "380702456029-sslpafp4juostem5k8fqgccdiba3f8ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDi4y2k_tom8InGOBKNpQ9tO9j7mY8Ll0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380702456029-sslpafp4juostem5k8fqgccdiba3f8ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

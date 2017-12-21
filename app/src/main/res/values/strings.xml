@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">AldaarShop</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="facebook">Sign in with Facebook</string>
+    <string name="google">Sign in with Google </string>
+    <string name="emailsign">Use Email</string>
+
+    <string name="signin"> Sign in   </string>
+    <string name="signup"> Sign up   </string>
+    <string name="addphoto"> Add  \n photo   </string>
+
+
+    <string name="username"> User  </string>
+
+
+    <string name="justforyou"> Just For You   </string>
+
+
+    <!--hint-->
+    <string name="email"> Email  </string>
+    <string name="name"> Name  </string>
+    <string name="gender"> Gender :  </string>
+    <string name="Male"> MALE </string>
+    <string name="Female"> FEMALE  </string>
+    <string name="title_activity_client">ClientActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Client Activity -->
+
+    <string name="add_new_product_type">  Add New Product Type </string>
+    <string name="product_type_name"> Title </string>
+
+    <string name="add_new_product">  Add  Product Type </string>
+
+
+    <string name="add_new_item">  Add  Product  Item  </string>
+    <string name="title_activity_customer">CustomerActivity</string>
+
+</resources>
